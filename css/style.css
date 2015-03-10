@@ -55,7 +55,7 @@ ul.img-list li {
     height: 48px;
     margin: 0 1em 1em 0;
     position: relative;
-    width: 48px;
+    width: 96px;
 }
 
 ul.img-list img {
@@ -73,7 +73,7 @@ span.text-content {
     left: 0;
     position: absolute;
     top: 0;
-    width: 48px;
+    width: 96px;
     opacity: 0;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
