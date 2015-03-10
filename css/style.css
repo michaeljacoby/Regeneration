@@ -1,0 +1,92 @@
+@import url("reset.css");
+
+body{
+background:green;
+}
+
+#header {
+float:left;
+width:100%;
+height:100px;
+background-color: blue;
+}
+
+#stats {
+float:right;
+width:30%;
+background-color: brown;
+}
+
+#Population{
+    background-color: chocolate;
+    min-height: 100px;
+    width: 100%;
+}
+
+span#popClass{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#popClass{
+    width:48px;
+    height:48px;
+}
+
+#realm {
+float:left;
+width:70%;
+}
+
+.treeimage {
+width:100px;
+height:auto;
+}
+
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul.img-list li {
+    height: 48px;
+    margin: 0 1em 1em 0;
+    position: relative;
+    width: 48px;
+}
+
+ul.img-list img {
+    border-radius: 15px;
+}
+
+span.text-content {
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    display: table;
+    font-size: 1.5em;
+    height: 48px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 48px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+    opacity: 1;
+}
